@@ -1,17 +1,32 @@
+// .header-section {
+//     background-color: var(--primary-color);
+//     color: var(--secondary-color);
+//     // height: 80px;
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-between;
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+//     right: 0;
+//     width: 100%;
+//     z-index: 1000;
+//     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+//     padding: 15px 0px;
+// }
+
 .header-section {
     background-color: var(--primary-color);
     color: var(--secondary-color);
-    height: 80px;
+    // height: 80px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     position: fixed;
     top: 0;
     left: 0;
-    right: 0;
     width: 100%;
-    z-index: 1000;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+    padding: 15px 0px;
 }
 
 .logo-section {
@@ -46,4 +61,73 @@
     border-radius: 30px;
     padding: 5px 10px;
     line-height: 18px;
+}
+
+.toggle-btn-section {
+    display: flex;
+    justify-content: end;
+}
+
+.bar-icon {
+    font-size: 18px;
+    cursor: pointer;
+    color: var(--secondary-color);
+}
+
+.sidebar-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1040;
+    animation: fadeIn 0.3s ease;
+}
+
+.sidebar-wrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 280px;
+    height: 100vh;
+    background-color: var(--secondary-color);
+    z-index: 1050;
+    box-shadow: -5px 0 15px rgba(0, 0, 0, 0.2);
+    overflow-y: auto;
+    animation: slideIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@media (max-width: 575.98px) {
+    .header-section {
+        padding: 10px 0px;
+    }
+
+    .logo-section {
+        width: 100px;
+    }
+
+    .logo {
+        width: 100px;
+    }
 }

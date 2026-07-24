@@ -1,1 +1,48 @@
-<p>side-bar works!</p>
+<!-- Inside app-side-bar.component.html -->
+<!-- <div class="sidebar-header d-flex justify-content-between align-items-center p-3">
+    <h5 class="m-0">Menu</h5>
+    <button type="button" class="btn-close" (click)="sharedService.toggleSidebar = false"></button>
+</div> -->
+
+<!-- <div class="sidebar-body p-3">
+    <ul class="list-unstyled">
+        <li class="py-2"><a href="#">Home</a></li>
+        <li class="py-2"><a href="#">Products</a></li>
+        <li class="py-2"><a href="#">About US</a></li>
+        <li class="py-2"><a href="#">FAQ's</a></li>
+        <li class="py-2"><a href="#">Contact US</a></li>
+    </ul>
+</div> -->
+
+<div class="sidebar-wrapper">
+    <!-- Header Section -->
+    <div class="sidebar-header">
+        <div class="logo-box">
+            <img src="../../../../assets/image/logo/logo.jpg" alt="logo">
+        </div>
+        <button class="close-sidebar" (click)="sharedService.toggleSidebar = false">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+    </div>
+
+    <!-- Body / Menu Section -->
+    <div class="sidebar-body">
+        <ul class="sidebar-menu">
+            <li>
+                <a href="#"><i class="fa-solid fa-house me-2"></i> Home</a>
+            </li>
+            <li>
+                <a href="#"><i class="fa-solid fa-box me-2"></i> Products</a>
+            </li>
+            <li>
+                <a href="#"><i class="fa-solid fa-circle-info me-2"></i> About US</a>
+            </li>
+            <li>
+                <a href="#"><i class="fa-solid fa-circle-question me-2"></i> FAQ's</a>
+            </li>
+            <li>
+                <a href="#"><i class="fa-solid fa-envelope me-2"></i> Contact US</a>
+            </li>
+        </ul>
+    </div>
+</div>
