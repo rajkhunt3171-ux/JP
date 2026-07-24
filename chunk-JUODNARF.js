@@ -1,0 +1,1 @@
+import{Aa as n,Ba as a,Ha as p,pa as m}from"./chunk-BOBMJBCZ.js";var e=class t{static \u0275fac=function(o){return new(o||t)};static \u0275cmp=m({type:t,selectors:[["app-home"]],decls:2,vars:0,template:function(o,i){o&1&&(n(0,"p"),p(1,"home works!"),a())},encapsulation:2})};var u=[{path:"",component:e}];export{u as layOutRoutes};
