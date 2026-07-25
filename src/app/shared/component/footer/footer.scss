@@ -1,0 +1,41 @@
+.footer-section {
+    background-color: #f4f4f4;
+    padding-top: 50px;
+}
+
+.logo-box {
+    text-align: center;
+}
+
+.footer-logo {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.tag-line {
+    color: var(--primary-color);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.footer-card {
+    height: 100%;
+
+    .title {
+        text-align: center;
+        border-bottom: 2px dotted var(--primary-color);
+        padding-bottom: 10px;
+    }
+}
+
+.social-link {
+    img {
+        width: 30px;
+    }
+}
+
+.social-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
