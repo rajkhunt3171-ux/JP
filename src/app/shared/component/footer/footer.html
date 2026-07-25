@@ -1,55 +1,69 @@
 <div class="footer-section">
     <div class="container">
         <div class="footer-top">
-            <div class="row">
-                <div class="col-3">
+            <div class="row gy-3">
+                <div class="col-sm-6 col-md-4 col-lg-3">
                     <div class="footer-card logo-box">
                         <img class="footer-logo" src="../../../../assets/image/logo/favicon.png" alt="">
                         <p class="tag-line">Expert Repair, Trusted Care</p>
                     </div>
                 </div>
 
-                <div class="col-3">
+                <div class="col-sm-6 col-md-4 col-lg-3">
                     <div class="footer-card">
                         <h5 class="title">
                             Product Categories
                         </h5>
+                        <div class="menu-link">
+                            <ul>
+                                <li><a (click)="sharedService.scrollto('home')">CCTV Camera</a></li>
+                                <li><a (click)="sharedService.scrollto('home')">Computer</a></li>
+                                <li><a (click)="sharedService.scrollto('home')">Laptop</a></li>
+                                <li><a (click)="sharedService.scrollto('home')">LCD</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <!-- Useful Links -->
+                <div class="col-sm-6 col-md-4 col-lg-3">
                     <div class="footer-card">
                         <h5 class="title">
                             Useful Links
                         </h5>
                         <div class="menu-link">
                             <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">Products</a></li>
-                                <li><a href="#">About US</a></li>
-                                <li><a href="#">FAQ's</a></li>
-                                <li><a href="#">Contact US</a></li>
+                                <li><a (click)="sharedService.scrollto('home')">Home</a></li>
+                                <li><a (click)="sharedService.scrollto('home')">Products</a></li>
+                                <li><a (click)="sharedService.scrollto('home')">About US</a></li>
+                                <li><a (click)="sharedService.scrollto('home')">FAQ's</a></li>
+                                <li><a (click)="sharedService.scrollto('home')">Contact US</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <!-- Contact Infor. -->
+                <div class="col-sm-6 col-md-4 col-lg-3">
                     <div class="footer-card">
                         <h5 class="title">
-                            Contact Info.
+                            Contact Information
                         </h5>
                         <div class="menu-link">
                             <div class="social-menu">
                                 <p class="social-link">
-                                    <img src="../../../../assets/image/social/mobile.png" alt="">
-                                    <a></a>
+                                    <img src="../../../../assets/image/social/mobile.png" alt="Mobile">
+                                    <a [href]="'tel:' + phoneNumber">{{ phoneNumber }}</a>
                                 </p>
                                 <p class="social-link">
-                                    <img src="../../../../assets/image/social/whatsapp.png" alt="">
-                                    <a></a>
+                                    <img src="../../../../assets/image/social/whatsapp.png" alt="WhatsApp">
+                                    <a [href]="'https://wa.me/' + whatsappNumber" target="_blank">
+                                        +{{ whatsappNumber }}
+                                    </a>
                                 </p>
                                 <p class="social-link">
-                                    <img src="../../../../assets/image/social/gmail.png" alt="">
-                                    <a></a>
+                                    <img src="../../../../assets/image/social/gmail.png" alt="Email">
+                                    <a [href]="'mailto:' + email" target="_blank">
+                                        {{ email }}
+                                    </a>
                                 </p>
                             </div>
                         </div>
@@ -57,8 +71,19 @@
                 </div>
             </div>
         </div>
-        <div class="footer-bottom">
-            fg
+    </div>
+    <div class="footer-policy-section">
+        <div class="container">
+            <p class="footer-tag-line notranslate">
+                © {{currYear}} JP Computer Care
+                <span class="heart-icon">
+                    <i class="fa-solid fa-heart"></i>
+                </span>
+                by
+                <a>
+                    R.J.
+                </a>
+            </p>
         </div>
     </div>
 </div>
