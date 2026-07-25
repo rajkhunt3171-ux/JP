@@ -1,15 +1,21 @@
+import { CommonModule } from '@angular/common';
 import { Component, ElementRef, ViewChild, AfterViewInit } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import Swiper from 'swiper/bundle';
 
 @Component({
   selector: 'app-home',
-  imports: [],
+  imports: [CommonModule, FormsModule],
   templateUrl: './home.html',
   styleUrl: './home.scss',
 })
 export class Home implements AfterViewInit {
   @ViewChild('swiper') swiperEl!: ElementRef;
   swiperInstance?: Swiper;
+
+  isNotValid: boolean = false;
+  subject: string = '';
+  message: string = '';
 
   ngAfterViewInit() {
     this.swiperInstance = new Swiper(this.swiperEl.nativeElement, {
@@ -44,5 +50,21 @@ export class Home implements AfterViewInit {
         }
       }
     });
+  }
+
+  sendMail() {
+    this.isNotValid = true;
+    let toasterErrorMsg = '';
+    if (!this.subject) {
+      toasterErrorMsg = 'required';
+    }
+    if (toasterErrorMsg) {
+      return;
+    } else {
+      this.isNotValid = false;;
+      const body = `${this.message}`;
+      const mail = `mailto:info@opectillerblade.com?subject=${this.subject}?&body=${body}`;
+      window.open(mail, '_blank');
+    }
   }
 }
