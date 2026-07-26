@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component, ElementRef, ViewChild, AfterViewInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import Swiper from 'swiper/bundle';
+import { Service } from '../../shared/service/service';
 
 @Component({
   selector: 'app-home',
@@ -17,39 +18,46 @@ export class Home implements AfterViewInit {
   subject: string = '';
   message: string = '';
 
+  constructor(public sharedService: Service) { }
+
+
   ngAfterViewInit() {
-    this.swiperInstance = new Swiper(this.swiperEl.nativeElement, {
-      slidesPerView: 1,
-      // spaceBetween: 20,
-      loop: true,
+    setTimeout(() => {
+      this.swiperInstance = new Swiper(this.swiperEl.nativeElement, {
+        slidesPerView: 1,
+        // spaceBetween: 20,
+        loop: true,
+        observer: true,
+        observeParents: true,
 
-      autoplay: {
-        delay: 3000,
-        disableOnInteraction: false
-      },
-
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true
-      },
-
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev'
-      },
-
-      breakpoints: {
-        320: {
-          slidesPerView: 1
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false
         },
-        768: {
-          slidesPerView: 1
+
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true
         },
-        1200: {
-          slidesPerView: 1
+
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev'
+        },
+
+        breakpoints: {
+          320: {
+            slidesPerView: 1
+          },
+          768: {
+            slidesPerView: 1
+          },
+          1200: {
+            slidesPerView: 1
+          }
         }
-      }
-    });
+      });
+    }, 100);
   }
 
   sendMail() {

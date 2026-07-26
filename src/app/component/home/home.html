@@ -2,15 +2,21 @@
     <div id="home" class="hero-section">
         <div class="swiper" #swiper>
             <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <img class="swiper-banner" src="../../../assets/image/banner/banner_1.png">
+                <ng-container *ngFor="let item of sharedService.bannerList">
+                    <div class="redirect-game swiper-slide">
+                        <img class="d-block d-sm-none" src="{{item.mobile_banner}}" style="width: 100%;" [alt]="item?.alt" />
+                        <img class="d-none d-sm-block" src="{{item.desktop_banner}}" style="width: 100%;" [alt]="item?.alt" />
+                    </div>
+                </ng-container>
+                <!-- <div class="swiper-slide">
+                    <img class="swiper-banner" src="assets/image/banner/banner_1.png">
                 </div>
                 <div class="swiper-slide">
-                    <img class="swiper-banner" src="../../../assets/image/banner/banner_2.png">
+                    <img class="swiper-banner" src="assets/image/banner/banner_2.png">
                 </div>
                 <div class="swiper-slide">
-                    <img class="swiper-banner" src="../../../assets/image/banner/banner_3.png">
-                </div>
+                    <img class="swiper-banner" src="assets/image/banner/banner_3.png">
+                </div> -->
             </div>
 
             <div class="swiper-pagination"></div>
