@@ -4,24 +4,80 @@
             <div class="swiper-wrapper">
                 <ng-container *ngFor="let item of sharedService.bannerList">
                     <div class="redirect-game swiper-slide">
-                        <img class="d-block d-sm-none" src="{{item.mobile_banner}}" style="width: 100%;" [alt]="item?.alt" />
-                        <img class="d-none d-sm-block" src="{{item.desktop_banner}}" style="width: 100%;" [alt]="item?.alt" />
+                        <img class="d-block d-sm-none" src="{{item.mobile_banner}}" style="width: 100%;"
+                            [alt]="item?.alt" />
+                        <img class="d-none d-sm-block" src="{{item.desktop_banner}}" style="width: 100%;"
+                            [alt]="item?.alt" />
                     </div>
                 </ng-container>
-                <!-- <div class="swiper-slide">
-                    <img class="swiper-banner" src="assets/image/banner/banner_1.png">
-                </div>
-                <div class="swiper-slide">
-                    <img class="swiper-banner" src="assets/image/banner/banner_2.png">
-                </div>
-                <div class="swiper-slide">
-                    <img class="swiper-banner" src="assets/image/banner/banner_3.png">
-                </div> -->
             </div>
 
             <div class="swiper-pagination"></div>
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
+        </div>
+    </div>
+
+    <div id="about_us" class="about-us-section section-space--ptb_60">
+        <div class="container">
+            <div class="feature-title-section">
+                <div class="feature-title section-title text-center">
+                    <h1>About Us!</h1>
+                </div>
+                <div class="feature-desc section-title-des text-center">
+                    <p>
+                        Reliable Tech Maintenance for Peace of Mind
+                    </p>
+                </div>
+                <div class="text-center title-section-line">
+                    <hr class="section-line">
+                </div>
+            </div>
+            <div class="about-us-details">
+                <div class="row gy-2">
+                    <div class="col-lg-5 col-md-6">
+                        <div class="about-us-banner">
+                            <img src="../../../assets/image/about_us.png" alt="About-Us">
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-6">
+                        <div class="about-us-details">
+                            <h2>Smart Security <br> Solutions Every Time</h2>
+                            <p>Welcome to <b>JP Computer care</b>, your all-in-one service hub for comprehensive
+                                electronics
+                                maintenance, security care, and IT support. We understand that your computers, display
+                                screens, and security cameras are critical investments. Our goal is simple: to keep your
+                                technology operating at peak efficiency without costly downtime.</p>
+                            <div class="about-product">
+                                <p>
+                                    <span class="right-sign">
+                                        <i class="fa-solid fa-circle-check"></i>
+                                    </span>
+                                    <b class="product-name">CCTV & Security Care : </b>
+                                    Complete installation, lens cleaning, cable management, DVR/NVR troubleshooting, and
+                                    remote viewing configuration to ensure 24/7 protection.
+                                </p>
+                                <p>
+                                    <span class="right-sign">
+                                        <i class="fa-solid fa-circle-check"></i>
+                                    </span>
+                                    <b class="product-name">Computer & Laptop Solutions : </b>
+                                    Deep cleaning, hardware upgrades, virus removal, OS optimization, and thermal paste
+                                    re-application for maximum speed and longevity.
+                                </p>
+                                <p>
+                                    <span class="right-sign">
+                                        <i class="fa-solid fa-circle-check"></i>
+                                    </span>
+                                    <b class="product-name">LCD / LED Display Repair : </b>
+                                    Professional diagnosis for screen flickering, power board issues, color distortion,
+                                    and backlight repairs for high-definition visual performance.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 

@@ -15,7 +15,7 @@
 }
 
 .section-title {
-    color: var(--white-color);
+    color: var(--primary-color);
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -23,7 +23,7 @@
 }
 
 .section-title h2 {
-    color: var(--white-color);
+    color: var(--primary-color);
 }
 
 .section-title-des {
@@ -53,6 +53,29 @@
 .swiper-banner {
     width: 100%;
 }
+
+//about us section css start
+
+.about-us-banner {
+    border-radius: 20px;
+    box-shadow: rgba(255, 255, 255, 0.6) 0px 2px 8px 0px;
+    overflow: hidden;
+}
+
+.about-us-details {
+    p {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+}
+
+.about-product {
+    .right-sign {
+        font-size: 18px;
+        margin-right: 4px;
+    }
+}
+
 
 // contact us css start
 .contact-us-section {
