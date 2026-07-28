@@ -48,8 +48,13 @@
     background-color: var(--primary-color);
     padding: 10px 0px;
     color: var(--secondary-color);
-    text-align: center;
     margin-top: 30px;
+}
+
+.footer-policy {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .footer-tag-line {
@@ -68,3 +73,34 @@
 .menu-link a:hover {
     font-weight: 600;
 }
+
+.social-icon {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.footer-social-icon {
+    width: 20px;
+    height: 20px;
+}
+
+@media (max-width:575.98px) {
+    .footer-policy {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .social-icon {
+        justify-content: center;
+    }
+}
+
+@media (min-width:576px) and (max-width:767.98px) {}
+
+@media (min-width:768px) and (max-width:991.98px) {}
+
+@media (min-width:992px) and (max-width:1199.98px) {}
+
+@media (min-width:1200px) and (max-width:1399.98px) {}

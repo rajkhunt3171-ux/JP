@@ -1,6 +1,6 @@
 <div class="body-wrapper">
     <!-- hero section start -->
-    <div id="home" class="hero-section">
+    <section id="home" class="hero-section">
         <div class="swiper" #swiper>
             <div class="swiper-wrapper">
                 <ng-container *ngFor="let item of sharedService.bannerList">
@@ -17,11 +17,11 @@
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
         </div>
-    </div>
+    </section>
     <!-- hero section end -->
 
     <!-- about us section start -->
-    <div id="about_us" class="about-us-section section-space--ptb_60">
+    <section id="about_us" class="about-us-section section-space--ptb_60">
         <div class="container">
             <div class="feature-title-section">
                 <div class="feature-title section-title text-center">
@@ -82,11 +82,11 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- about us section end -->
 
     <!-- about us section start -->
-    <div id="product" class="product-section section-space--ptb_60">
+    <section id="product" class="product-section section-space--ptb_60">
         <div class="container">
             <div class="feature-title-section">
                 <div class="feature-title section-title text-center">
@@ -136,12 +136,87 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- about us section end -->
 
+    <!-- FAQ Section start-->
+    <section id="faq" class="faq-section section-space--pb_60">
+        <div class="container">
+            <div class="feature-title-section">
+                <div class="feature-title section-title text-center">
+                    <h1>Frequently Asked Questions</h1>
+                </div>
+                <div class="feature-desc section-title-des text-center">
+                    <p>
+                        Common questions, Clear answers
+                    </p>
+                </div>
+                <div class="text-center title-section-line">
+                    <hr class="section-line">
+                </div>
+            </div>
+            <div class="feature-desc-section">
+                <div class="row align-items-center">
+                    <div class="col-lg-7">
+                        <div class="d-block d-lg-none">
+                            <div class="d-flex justify-content-center">
+                                <img class="faq-img" src="../../../assets/image/faq.jpg"
+                                    alt="Frequently Asked Questions">
+                            </div>
+                        </div>
+                        <div class="faq">
+                            <div class="faq-content">
+                                <div class="accordion" id="accordionExample">
+                                    <div class="accordion-item" *ngFor="let item of faq;let i = index">
+                                        <h2 class="accordion-header" id="heading{{i}}">
+                                            <button class="accordion-button" [attr.aria-expanded]="i==0 ? true : false"
+                                                type="button" data-bs-toggle="collapse"
+                                                [ngClass]="i==0 ? '' : 'collapsed'" attr.data-bs-target="#collapse{{i}}"
+                                                attr.aria-controls="collapse{{i}}">
+                                                {{item.question}}
+                                            </button>
+                                        </h2>
+                                        <div id="collapse{{i}}" class="accordion-collapse collapse"
+                                            [ngClass]="i==0 ? 'show' : ''" attr.aria-labelledby="heading{{i}}"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body text-justify" [innerHTML]="item.answer">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class=""> -->
+                    <div class="d-none d-lg-block col-lg-5 d-flex justify-content-center">
+                        <img class="faq-img" src="../../../assets/image/faq.jpg" alt="Frequently Asked Questions">
+                    </div>
+                    <!-- </div> -->
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FAQ Section end-->
+
+    <!-- tag line section start -->
+    <section class="tag-line-section section-space--ptb_60">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="content">
+                <h2 class="tagline">We deliver premium quality products and services at prices that fit your budget.
+                </h2>
+                <div class="text-center title-section-line">
+                    <hr class="section-line m-0">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- tag line section end -->
 
     <!-- Contact Us Section start -->
-    <div id="contact_us" class="contact-us-section section-space--ptb_60">
+    <section id="contact_us" class="contact-us-section section-space--ptb_60">
         <div class="container">
             <div class="feature-title-section">
                 <div class="feature-title section-title contact-us-title text-center">
@@ -193,7 +268,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- Contact Us Section end -->
 
 </div>
