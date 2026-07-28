@@ -60,4 +60,3 @@ For more information on using the Angular CLI, including detailed command refere
 
 == product details apge
 == time add
-== wp icon set

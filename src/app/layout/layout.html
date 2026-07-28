@@ -7,3 +7,22 @@
         <app-footer></app-footer>
     </div>
 </div>
+
+<div class="floating-buttons">
+    <div class="sendwpmessage">
+        <div class="whatsappbtn active-wp">
+            <div class="wp-btn" (click)="openWhatsApp()">
+                <img src="https://imagedelivery.net/e-tMwoFguc_sW5_t1dQKHA/da92aec8-76cd-46ab-1e8e-341e7a908900/w=70,h=70"
+                    alt="WhatsApp Chat Icon">
+            </div>
+        </div>
+    </div>
+
+    @if(windowScroll){
+    <button class="scroll-to-top" aria-label="Scroll to top" (click)="sharedService.scrollto('home')">
+        <span>
+            <i class="fa-solid fa-arrow-up"></i>
+        </span>
+    </button>
+    }
+</div>
