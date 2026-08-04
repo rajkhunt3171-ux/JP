@@ -3,10 +3,11 @@ import { Component, ElementRef, ViewChild, AfterViewInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import Swiper from 'swiper/bundle';
 import { Service } from '../../shared/service/service';
+import { RouterLink } from "@angular/router";
 
 @Component({
   selector: 'app-home',
-  imports: [CommonModule, FormsModule],
+  imports: [CommonModule, FormsModule, RouterLink],
   templateUrl: './home.html',
   styleUrl: './home.scss',
 })
@@ -17,6 +18,37 @@ export class Home implements AfterViewInit {
   isNotValid: boolean = false;
   subject: string = '';
   message: string = '';
+
+  product = [
+    {
+      img: '../../../assets/image/product/cctv.jpeg',
+      title: 'CCTV Camera',
+      icon: 'fa-solid fa-camera',
+      description: 'High-definition surveillance cameras for crystal-clear indoor and outdoor security monitoring.',
+      url: 'cctv'
+    },
+    {
+      img: '../../../assets/image/product/laptop.jpeg',
+      title: 'Laptop',
+      icon: 'fa-solid fa-laptop',
+      description: 'Reliable laptops designed for office work, business productivity, multitasking, online meetings, and everyday professional computing needs.',
+      url: 'laptop'
+    },
+    {
+      img: '../../../assets/image/product/computer.jpeg',
+      title: 'Desktop',
+      icon: 'fa-solid fa-laptop',
+      description: 'Professional troubleshooting and repair for hardware and software issues on laptops, desktops, and all computer systems.',
+      url: 'computer'
+    },
+    {
+      img: '../../../assets/image/product/led.jpeg',
+      title: 'LED',
+      icon: 'fa-solid fa-tv',
+      description: 'Professional troubleshooting and repair for display issues, power failures, sound problems, and motherboard faults.',
+      url: 'led'
+    }
+  ]
 
   faq = [
     {

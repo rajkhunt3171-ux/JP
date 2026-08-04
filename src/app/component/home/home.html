@@ -85,7 +85,7 @@
     </section>
     <!-- about us section end -->
 
-    <!-- about us section start -->
+    <!-- product section start -->
     <section id="product" class="product-section section-space--ptb_60">
         <div class="container">
             <div class="feature-title-section">
@@ -103,27 +103,21 @@
             </div>
             <div class="product-details">
                 <div class="row gy-2">
+                    @for(item of product; track $index){
                     <div class="col-lg-3">
                         <div class="service-card">
                             <div class="card-image-wrapper">
-                                <img src="../../../assets/image/product/service-1.jpg" alt="Home Security Systems">
-
-                                <!-- Floating Center Red Icon -->
+                                <img [src]="item.img" alt="{{item.title}}">
                                 <div class="floating-icon">
-                                    <i class="fa-solid fa-house-lock"></i>
+                                    <i [class]="item.icon"></i>
                                 </div>
                             </div>
-
-
-                            <!-- Text Body Section -->
                             <div class="card-content">
-                                <h3 class="card-title">Home Security Systems</h3>
+                                <h3 class="card-title">{{item.title}}</h3>
                                 <p class="card-description">
-                                    We provide professional CCTV installation services offering high-quality cameras.
+                                    {{item.description}}
                                 </p>
-
-                                <!-- Bottom Button Link -->
-                                <a href="#" class="card-action">
+                                <a routerLink="{{item.url}}" class="card-action">
                                     Discover More
                                     <span class="arrow-circle">
                                         <i class="fa-solid fa-arrow-right"></i>
@@ -132,12 +126,12 @@
                             </div>
                         </div>
                     </div>
-
+                    }
                 </div>
             </div>
         </div>
     </section>
-    <!-- about us section end -->
+    <!-- product section end -->
 
     <!-- FAQ Section start-->
     <section id="faq" class="faq-section section-space--pb_60">

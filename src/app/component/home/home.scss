@@ -84,6 +84,8 @@
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.06);
     position: relative;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+    border: 1px solid #e8eaed;
 }
 
 .service-card:hover {
@@ -109,8 +111,8 @@
     left: 50%;
     transform: translateX(-50%);
     bottom: -45px;
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 80px;
     background-color: red;
     border-radius: 50%;
     display: flex;
@@ -139,6 +141,13 @@
     font-size: 0.95rem;
     color: #666666;
     margin-bottom: 20px;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
 }
 
 .card-action {
