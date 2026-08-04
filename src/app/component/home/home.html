@@ -133,6 +133,37 @@
     </section>
     <!-- product section end -->
 
+    <!-- client section start -->
+    <section id="client" class="client-section section-space--pb_60">
+        <div class="container">
+            <div class="feature-title-section">
+                <div class="feature-title section-title text-center">
+                    <h1>Our Global Clients & Partners</h1>
+                </div>
+                <div class="feature-desc section-title-des text-center">
+                    <p>
+                        Trusted by Businesses and Organizations Worldwide
+                    </p>
+                </div>
+                <div class="text-center title-section-line">
+                    <hr class="section-line">
+                </div>
+            </div>
+            <div class="client-logo">
+                <div class="swiper" #clientSwiper>
+                    <div class="swiper-wrapper align-items-center">
+                        @for(item of ClientList; track $index){
+                        <div class="swiper-slide text-center">
+                            <img [src]="item.imageUrl" [alt]="item.alt" class="img-fluid" style="max-width: 150px;" />
+                        </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- client section end -->
+
     <!-- FAQ Section start-->
     <section id="faq" class="faq-section section-space--pb_60">
         <div class="container">

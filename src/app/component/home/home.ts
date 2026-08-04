@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component, ElementRef, ViewChild, AfterViewInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import Swiper from 'swiper/bundle';
+import { SwiperOptions } from 'swiper/types';
 import { Service } from '../../shared/service/service';
 import { RouterLink } from "@angular/router";
 
@@ -13,7 +14,76 @@ import { RouterLink } from "@angular/router";
 })
 export class Home implements AfterViewInit {
   @ViewChild('swiper') swiperEl!: ElementRef;
+  @ViewChild('clientSwiper') clientSwiperEl!: ElementRef;
   swiperInstance?: Swiper;
+  clientSwiperInstance?: Swiper;
+
+  ClientBannerConfig: SwiperOptions = {
+    slidesPerView: 6,
+    spaceBetween: 10,
+    loop: true,
+    speed: 6000,
+    autoplay: {
+      delay: 0,
+      disableOnInteraction: false,
+      pauseOnMouseEnter: true,
+    },
+    navigation: false,
+    pagination: false,
+    breakpoints: {
+      0: {
+        slidesPerView: 2,
+      },
+      768: {
+        slidesPerView: 4,
+      },
+      992: {
+        slidesPerView: 4,
+      },
+      1200: {
+        slidesPerView: 6,
+      }
+    }
+  };
+
+  ClientList = [
+    {
+      imageUrl: '../../../assets/image/logo1.png',
+      alt: 'Agrimate'
+    },
+    {
+      imageUrl: '../../../assets/image/logo2.png',
+      alt: 'Radhika'
+    },
+    {
+      imageUrl: '../../../assets/image/logo3.png',
+      alt: 'Conrad'
+    },
+    {
+      imageUrl: '../../../assets/image/logo4.png',
+      alt: 'captain'
+    },
+    {
+      imageUrl: '../../../assets/image/logo5.png',
+      alt: 'Sitaram'
+    },
+    {
+      imageUrl: '../../../assets/image/logo6.png',
+      alt: 'Tata-Steel'
+    },
+    {
+      imageUrl: '../../../assets/image/logo7.png',
+      alt: 'FMC'
+    },
+    {
+      imageUrl: '../../../assets/image/logo8.png',
+      alt: 'FMC'
+    },
+    {
+      imageUrl: '../../../assets/image/logo9.png',
+      alt: 'FMC'
+    }
+  ]
 
   isNotValid: boolean = false;
   subject: string = '';
@@ -112,6 +182,9 @@ export class Home implements AfterViewInit {
           }
         }
       });
+      if (this.clientSwiperEl) {
+        this.clientSwiperInstance = new Swiper(this.clientSwiperEl.nativeElement, this.ClientBannerConfig);
+      }
     }, 100);
   }
 
