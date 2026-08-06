@@ -11,7 +11,7 @@ import { ProductDetails } from '../product-details/product-details';
 export class Cctv {
   productList: any[] = [
     {
-      img: 'dahua_dome_bullet_camera.jpg',
+      img: 'assets/image/product/cctv/dahua_hdcvi_camera_dom.png',
       title: 'Dahua HD IR Dome Security Camera',
       description: 'A compact Dahua dome surveillance camera designed for indoor and outdoor security monitoring. It features high-definition video capture, built-in infrared LEDs for night vision, and a durable vandal-resistant housing for reliable 24/7 surveillance.',
       short_desc: [
@@ -24,6 +24,55 @@ export class Cctv {
         "Weather-resistant and durable housing for long-lasting performance.",
         "Compatible with most DVR/NVR surveillance systems for easy integration."
       ]
+    },
+    {
+      img: 'assets/image/product/cctv/dahua_hdcvi_camera_bullet.png',
+      title: '',
+      description: '',
+      short_desc: [],
+      other_desc: []
+    },
+    {
+      img: 'assets/image/product/cctv/prama_hdcvi_dom.png',
+      title: '',
+      description: '',
+      short_desc: [],
+      other_desc: []
+    },
+    {
+      img: 'assets/image/product/cctv/prama_hdcvi_bullet.png',
+      title: '',
+      description: '',
+      short_desc: [],
+      other_desc: []
+    },
+    {
+      img: 'assets/image/product/cctv/dahua_2mp_colour_flash_dom.png',
+      title: '',
+      description: '',
+      short_desc: [],
+      other_desc: []
+    },
+    {
+      img: 'assets/image/product/cctv/dahua_2mp_colour_flash_bullet.png',
+      title: '',
+      description: '',
+      short_desc: [],
+      other_desc: []
+    },
+    {
+      img: 'assets/image/product/cctv/dahua_ip_dom.png',
+      title: '',
+      description: '',
+      short_desc: [],
+      other_desc: []
+    },
+    {
+      img: 'assets/image/product/cctv/dahua_ip_bullet.png',
+      title: '',
+      description: '',
+      short_desc: [],
+      other_desc: []
     },
     // {
     //   img: '',

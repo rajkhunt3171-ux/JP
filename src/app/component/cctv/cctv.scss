@@ -39,13 +39,18 @@
 
 .card-image-wrapper {
     position: relative;
-    // height: 200px;
-    background-color: #e5e7eb;
+    height: 150px;
+    background-color: var(--secondary-color);
+    text-align: center;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card-image-wrapper img {
-    width: 100%;
-    height: 100%;
+    width: 150px;
+    // height: 150px;
     // object-fit: cover;
     // display: block;
     // object-position: center;
