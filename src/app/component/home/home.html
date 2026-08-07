@@ -105,7 +105,7 @@
                 <div class="row gy-2">
                     @for(item of product; track $index){
                     <div class="col-lg-3">
-                        <div class="service-card">
+                        <div class="service-card" routerLink="{{item.url}}">
                             <div class="card-image-wrapper">
                                 <img [src]="item.img" alt="{{item.title}}">
                                 <div class="floating-icon">
