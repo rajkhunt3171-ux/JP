@@ -266,21 +266,183 @@ export class Cctv {
       ]
     },
     {
-      img: 'assets/image/product/cctv/dahua_imou_indoor.png',
-      title: '',
-      description: '',
+      img: 'assets/image/product/cctv/cctv_camera_stand.png',
+      title: 'Universal Extended Wall Mount Bracket for Security Cameras',
+      description: 'This heavy-duty adjustable mounting bracket is designed to extend and position security cameras away from walls for optimal surveillance coverage. Crafted from durable weather-resistant alloy with a clean white finish, it features an adjustable tilt head and telescopic arm to position bullet cameras or camera housings precisely where needed.',
       short_desc: [
+        "Extendable Wall Mount Bracket for CCTV Bullet Cameras",
+        "Adjustable Tilt & Swivel Head for Precise Camera Angle Positioning",
+        "Heavy-Duty Weather-Resistant Construction for Indoor/Outdoor Use"
       ],
       other_desc: [
+        "Integrated internal cable management pathway to conceal and protect wiring",
+        "Universal mounting plate compatible with standard dome, bullet, and housing cameras",
+        "Solid round base plate with pre-drilled holes for secure wall mounting"
       ]
     },
     {
-      img: 'assets/image/product/cctv/dahua_imou_indoor.png',
-      title: '',
-      description: '',
+      img: 'assets/image/product/cctv/cctv_dvr_rack.png',
+      title: 'Wall Mount CCTV DVR / NVR Security Enclosure Rack',
+      description: 'This heavy-duty wall-mount CCTV rack cabinet is designed to securely house and protect DVRs, NVRs, power supplies, and network equipment. Built with a sturdy steel frame, a key- lockable front door with a glass viewing window, and side ventilation slots, it prevents unauthorized tampering while ensuring proper airflow to prevent device overheating.',
       short_desc: [
+        "Lockable Front Door with Glass Window & Keys Included",
+        "Sturdy Powder-Coated Metal Frame for Wall Mounting",
+        "Built-In Ventilation Vents and Top Cable Entry Port"
       ],
       other_desc: [
+        "Protects DVR/NVR units and power equipment from theft and dust accumulation",
+        "Pre-cut cable entry ports on top and bottom for neat wire management",
+        "Ideal for home, office, and commercial security system setups"
+      ]
+    },
+    {
+      img: 'assets/image/product/cctv/cctv_junction_box.png',
+      title: 'Weatherproof CCTV Security Camera Junction Box Set',
+      description: 'This set of durable PVC CCTV junction boxes provides a secure, weatherproof enclosure for concealing and protecting camera wiring, video baluns, and power connectors.Designed for easy mounting behind bullet or dome security cameras, these base enclosures hide messy cables while protecting connections from rain, dust, and physical tampering.',
+      short_desc: [
+        "Weatherproof Plastic Junction Box Enclosures for CCTV Cameras",
+        "Conceals and Protects Connectors, Cables, and Power Leads",
+        "Durable PVC Construction for Indoor & Outdoor Installations"
+      ],
+      other_desc: [
+        "Knockout cable entry slots for neat and flexible wire management",
+        "Provides a flat, stable mounting surface for dome and bullet cameras",
+        "Helps prevent connection corrosion and tampering in outdoor security setups"
+      ]
+    },
+    {
+      img: 'assets/image/product/cctv/wd_hdd.png',
+      title: 'Western Digital Internal Hard Drive Series Collection',
+      description: 'This lineup features Western Digital 3.5-inch internal hard drives designed for specialized computing, storage, and surveillance workloads. The range includes color-coded series such as WD Purple for continuous CCTV recording, WD Blue and Black for PC performance, WD Red for NAS systems, and WD Gold for enterprise storage.',
+      short_desc: [
+        "3.5-Inch Internal SATA Hard Disk Drives",
+        "Tailored Drives for Surveillance, Desktop, NAS, and Enterprise Use",
+        "High-Capacity Reliable Storage Solutions from Western Digital"
+      ],
+      other_desc: [
+        "WD Purple specifically engineered for 24/7 NVR and DVR security systems",
+        "Standard SATA interface compatible with PCs, DVRs, servers, and enclosures",
+        "Built for high workload rates, continuous durability, and long-term data retention"
+      ]
+    },
+    {
+      img: 'assets/image/product/cctv/cctv_speaker.png',
+      title: 'High-Sensitivity CCTV Security Audio Pickup Microphone',
+      description: 'This compact dome-shaped audio pickup microphone is designed to add real- time sound monitoring to CCTV security systems and DVR setups. Featuring a high - sensitivity condenser unit housed in a discrete ceilingmountable shell, it captures clear audio over wide room areas while minimizing background noise for enhanced surveillance detail.',
+      short_desc: [
+        "High-Sensitivity Audio Pickup Microphone for CCTV Systems",
+        "Compact Half-Sphere Design Ideal for Ceiling/Wall Mounting",
+        "3-Wire Lead Output for Power, Ground, and Audio Signal"
+      ],
+      other_desc: [
+        "Color-coded wire leads (Red/Black/White or Yellow) for straightforward connection to 12V DC power and DVR audio inputs",
+        "Low-noise preamplifier circuitry for crisp sound capture across indoor spaces",
+        "Ideal for office, retail, counter-top, and room audio surveillance installations"
+      ]
+    },
+    {
+      img: 'assets/image/product/cctv/pow_switch.png',
+      title: 'CP Plus 8-Port PoE Switch with Uplink & SFP Ports',
+      description: 'This CP Plus 8-Port PoE Switch provides a reliable power and data transmission solution for IP surveillance networks and connected devices. Featuring Power over Ethernet(PoE) ports alongside dedicated Ethernet uplink and SFP fiber ports, it simplifies cabling by delivering both power and highspeed network connectivity through a single Ethernet cable.',
+      short_desc: [
+        "8-Port Power over Ethernet (PoE) Network Switch",
+        "Dedicated RJ45 Uplink Ports and SFP Slot for Flexible Expansion",
+        "Sturdy Metal Housing with LED Status Indicators"
+      ],
+      other_desc: [
+        "Transmits power and data simultaneously over standard Cat5e/Cat6 ethernet cables",
+        "Integrated PoE Watchdog function to detect and reboot unresponsive cameras automatically",
+        "Plug-and-play setup ideal for IP camera systems, access points, and VoIP devices"
+      ]
+    },
+    {
+      img: 'assets/image/product/cctv/pow_switch_junction.png',
+      title: 'Lockable Outdoor / Indoor Wall Mount PoE Switch Enclosure Box',
+      description: 'This heavy-duty lockable metal enclosure box is designed to safely house PoE switches, power supplies, and network connectors.Featuring a secure key- lock mechanism, a durable powder - coated finish, and integrated ventilation holes for effective heat dissipation, it protects critical networking hardware from unauthorized access, dust, and physical damage.',
+      short_desc: [
+        "Lockable Key-Entry Mechanism for Enhanced Hardware Security",
+        "Heavy-Duty Metal Construction with Integrated Cooling Vents",
+        "Ideal for Housing PoE Switches, Power Adapters, and Wiring"
+      ],
+      other_desc: [
+        "Decorative geometric pattern with central ventilation grid for optimum airflow",
+        "Wall-mountable design for clean and compact network hardware installation",
+        "Protects networking equipment from dust, tampering, and physical interference"
+      ]
+    },
+    {
+      img: 'assets/image/product/cctv/solar_camera.png',
+      title: 'Solar Powered Outdoor Wireless Pan & Tilt Security Camera',
+      description: 'This eco-friendly solar-powered outdoor security camera offers 100% wire - free surveillance powered by a top- mounted high - efficiency solar panel and rechargeable battery.Featuring 360 - degree pan and tilt coverage, bright LED spotlights for full - color night vision, and PIR motion detection, it provides reliable 24 / 7 security for remote outdoor locations without requiring electrical wiring.',
+      short_desc: [
+        "Solar Powered & Battery Operated for Wire-Free Installation",
+        "360Â° Pan & Tilt Coverage with Full HD Resolution",
+        "Smart PIR Motion Detection & Full-Color Night Vision"
+      ],
+      other_desc: [
+        "Integrated high-efficiency solar panel for continuous, maintenance-free charging",
+        "Built-in spotlights and IR LEDs for vivid color monitoring even in pitch darkness",
+        "Weatherproof design with two-way audio support and remote mobile app control"
+      ]
+    },
+    {
+      img: 'assets/image/product/cctv/tp_link_router.png',
+      title: 'TP-Link Dual-Antenna Wireless N Wi-Fi Router',
+      description: 'This TP-Link Dual-Antenna Wireless Wi-Fi Router offers fast and reliable wireless coverage for everyday home and office networking needs. Featuring two high- gain external antennas for extended signal range and stability, it delivers smooth high - speed internet connectivity for streaming, web browsing, and connecting multiple smart devices simultaneously.',
+      short_desc: [
+        "High-Speed Wireless N Connection for Seamless Internet Access",
+        "Dual High-Gain Antennas for Enhanced Wi-Fi Coverage & Range",
+        "Intuitive LED Indicator Panel for Real-Time Network Status Monitoring"
+      ],
+      other_desc: [
+        "Sleek and compact white housing with ventilation slots for efficient heat dissipation",
+        "Supports multiple operating modes including Router, Access Point, and Range Extender",
+        "Easy setup and network management via mobile app or web interface"
+      ]
+    },
+    {
+      img: 'assets/image/product/cctv/sim_card_router.png',
+      title: 'Tenda 4G LTE Wi-Fi Router with SIM Card Slot',
+      description: 'This Tenda 4G LTE Wi-Fi Router provides high-speed wireless internet access anywhere using a SIM card or standard broadband connection. Equipped with four high-gain external antennas for extended coverage and signal strength, it converts 4G cellular signals into a reliable Wi-Fi network for remote locations, homes, offices, and temporary setups.',
+      short_desc: [
+        "Integrated SIM Card Slot for Direct 4G LTE Plug-and-Play Internet",
+        "Four High-Gain External Antennas for Extended Wi-Fi Range",
+        "LED Status Indicators for Cellular Signal, Wi-Fi, and Power"
+      ],
+      other_desc: [
+        "Supports 4G mobile network connectivity without requiring fixed-line broadband",
+        "Stylish white chassis with top ventilation lattice for efficient heat management",
+        "Ideal for remote homes, surveillance sites, small offices, and temporary events"
+      ]
+    },
+    {
+      img: 'assets/image/product/cctv/cctv_3_1_cable.png',
+      title: 'CCTV 3+1 Coaxial Camera Power & Video Cable Coil',
+      description: 'This CCTV 3+1 composite cable coil combines a central coaxial video signal line with three insulated power/ audio copper wire leads inside a single durable outer sheath.Designed to streamline surveillance system wiring, it allows simultaneous transmission of high - definition video signals alongside DC power and audio through one cable run.',
+      short_desc: [
+        "3+1 Composite Structure (Video Coaxial + 3 Insulated Power Leads)",
+        "High-Conductivity Copper Cores for Low Signal Distortion",
+        "Durable White PVC Outer Sheath for Long-Lasting Protection"
+      ],
+      other_desc: [
+        "Eliminates the need for running separate power and video cables during camera installation",
+        "Color-coded internal leads for quick and accurate wiring identification",
+        "Ideal for analog, HD-TVI, and AHD CCTV camera installations"
+      ]
+    },
+    {
+      img: 'assets/image/product/cctv/cctv_cat_6_cable.png',
+      title: 'Cat6 FTP Ethernet Network Cable Coil for IP CCTV & Data',
+      description: 'This High-Performance Cat6 FTP Network Cable Roll is designed for high - speed data transmission and IP security camera installations.Featuring 4 twisted pairs of copper conductors with foil shielding and a central spline separator, it delivers superior protection against electromagnetic interference (EMI) and crosstalk for reliable Gigabit Ethernet and PoE performance.',
+      short_desc: [
+        "Cat6 4-Pair Shielded Twisted Pair (FTP) Network Cable",
+        "Foil Shielding & Internal Spline to Reduce Crosstalk and Interference",
+        "Ideal for IP CCTV Cameras, PoE Switches, and High-Speed LAN Wiring"
+      ],
+      other_desc: [
+        "Color-coded twisted pairs (Blue, Orange, Green, Brown) for easy RJ45 crimping",
+        "Supports Power over Ethernet (PoE/PoE+) for simultaneous power and data transfer",
+        "Durable grey PVC outer jacket suitable for indoor network installations"
       ]
     },
   ]
