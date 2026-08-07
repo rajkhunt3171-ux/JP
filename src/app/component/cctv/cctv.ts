@@ -145,6 +145,144 @@ export class Cctv {
         "Flexible storage options including MicroSD card, NVR, or Cloud"
       ]
     },
+    {
+      img: 'assets/image/product/cctv/dahua_imou_outdoor.png',
+      title: 'Imou Cruiser Outdoor Wi-Fi Pan & Tilt Security Camera',
+      description: 'The Imou Cruiser Outdoor Wi-Fi Camera delivers 360-degree pan and tilt coverage with vivid full- color night vision for complete outdoor perimeter security.Featuring dual external antennas for extended wireless range, smart AI human detection, and active deterrence with built -in spotlights and siren, it effectively monitors and protects your property against intruders in all weather conditions.',
+      short_desc: [
+        "Full HD Resolution with 360Â° Pan & Tilt Coverage",
+        "Smart Full-Color Night Vision with Built-In Spotlights",
+        "IP66 Weatherproof Casing with Dual Wi-Fi Antennas"
+      ],
+      other_desc: [
+        "Active deterrence feature featuring integrated spotlights and a 110dB security siren",
+        "Smart AI human detection with real-time motion tracking and instant app alerts",
+        "Supports two-way audio and flexible local MicroSD, NVR, or Cloud storage options"
+      ]
+    },
+    {
+      img: 'assets/image/product/cctv/bnc_connector_wirless.png',
+      title: 'BNC Male Connector to Screw Terminal Balun Adaptor',
+      description: 'These BNC Male Video Balun Connectors enable fast, tool-free connection of coaxial video signals to twisted pair cabling or custom wires without soldering.Featuring a standard male BNC interface on one end and a green screw terminal block on the other, they ensure stable, secure video signal transmission for CCTV, DVRs, and security camera installations.',
+      short_desc: [
+        "Standard Male BNC Connector to 2-Pin Screw Terminal",
+        "Solderless Design for Easy and Quick CCTV Cabling",
+        "Gold-Plated Pin for Superior Signal Transmission"
+      ],
+      other_desc: [
+        "Screw-terminal connection ensures tight, long-lasting cable retention",
+        "Compatible with CAT5/CAT6 network cables or two-wire video cables",
+        "Durable molded plastic housing with twist-lock metal BNC mechanism"
+      ]
+    },
+    {
+      img: 'assets/image/product/cctv/bnc_connector_wired.png',
+      title: 'BNC Male to BNC Male Coaxial Patch Extension Cable',
+      description: 'This pre-formed BNC male to BNC male coaxial patch cable provides a reliable plug-and-play solution for transmitting video signals between security cameras, DVRs, monitors, and video splitters. Featuring nickelplated twist-lock BNC connectors with gold-plated contact pins and molded strain relief boots, it ensures high-quality signal integrity and long-lasting durability in CCTV installations.',
+      short_desc: [
+        "Dual Male BNC Connectors for Direct Plug-and-Play Setup",
+        "Gold-Plated Center Pins for Optimal Signal Clarity",
+        "Flexible Coaxial Cable with Molded Strain Relief Boots"
+      ],
+      other_desc: [
+        "Secure twist-lock bayonet coupling prevents accidental disconnections",
+        "High-density shielding reduces interference and signal degradation",
+        "Ideal for connecting CCTV cameras, DVR systems, video monitors, and SDI equipment"
+      ]
+    },
+    {
+      img: 'assets/image/product/cctv/dc_connector_wireless.png',
+      title: 'DC Power Male and Female Plug to Screw Terminal Adapter Pair',
+      description: 'This pair of 12V DC power connectors includes one male plug and one female jack, providing a convenient, solderless solution for power connections in CCTV and LED lighting setups. Equipped with green 2-pin screw terminal blocks marked with clear polarity (+/-), these adapters allow easy connection of bare power wires to standard 5.5mm x 2.1mm DC power sockets and plugs without soldering.',
+      short_desc: [
+        "12V DC Male & Female Power Adapters (5.5mm x 2.1mm)",
+        "Solderless Screw Terminal Block with Clearly Marked Polarity",
+        "Ideal for CCTV Cameras, LED Strip Lights, and Power Supply Routing"
+      ],
+      other_desc: [
+        "Screw terminals ensure a tight, reliable wire connection for steady power delivery",
+        "Heavy-duty molded plastic construction with strain relief for long-lasting durability",
+        "Compatible with 12V / 24V low-voltage DC power applications"
+      ]
+    },
+    {
+      img: 'assets/image/product/cctv/dc_connector_wired.png',
+      title: '12V Male DC Power Pigtail Connector Cable',
+      description: 'This 12V DC Male Power Pigtail Cable features a pre-stripped, color- coded red and black wire lead connected to a standard male DC barrel plug. Designed for fast and convenient power wiring, it is ideal for connecting CCTV cameras, power supply boxes, LED light strips, and custom low - voltage electronic circuits.',
+      short_desc: [
+        "Standard 5.5mm x 2.1mm Male DC Barrel Connector",
+        "Pre-Stripped and Tinned Red/Black Color-Coded Lead Wires",
+        "Ideal for CCTV Power Wiring, DVRs, and LED Lighting"
+      ],
+      other_desc: [
+        "Red positive and black negative leads for easy polarity identification",
+        "Molded connector housing with flexible strain relief for improved longevity",
+        "Ensures reliable low-voltage DC power transmission across various security setups"
+      ]
+    },
+    {
+      img: 'assets/image/product/cctv/cctv_video_balloon.png',
+      title: 'Passive HD CCTV Video Balun Transceiver Pair',
+      description: 'This pair of passive HD video balun transceivers allows highdefinition CCTV video signals to be transmitted over cost-effective UTP twistedpair cable instead of heavy coaxial wiring. Featuring push-terminal blocks for quick, tool-free installation and flexible BNC pigtails for tight spaces, it delivers clear video transmission with strong anti-interference capabilities.',
+      short_desc: [
+        "Supports HD-TVI, HD-CVI, AHD, and CVBS Analog Formats",
+        "Tool-Free Push-Terminal Connection for UTP Cabling",
+        "Flexible BNC Pigtail Cables for Easy Installation Behind DVRs"
+      ],
+      other_desc: [
+        "Built-in transient suppression protection against power surges and static interference",
+        "Passive design requires no additional power supply",
+        "Ensures long-distance, noise-free video transmission over CAT5/CAT6 cables"
+      ]
+    },
+    {
+      img: 'assets/image/product/cctv/dahua_dvr_all_chenal.png',
+      title: 'Dahua High-Definition Network / Digital Video Recorder',
+      description: 'This Dahua Video Recorder offers robust management and recording solutions for residential and commercial security camera systems. Featuring high- efficiency video compression technology and multi - channel video input support, it delivers smooth live viewing, continuous high - definition recording, and easy footage playback across connected surveillance cameras.',
+      short_desc: [
+        "Multi-Channel HD Video Recording & Live Display",
+        "Advanced H.265+ Video Compression to Maximize Storage Efficiency",
+        "Supports Remote Monitoring via Smartphone & PC Apps"
+      ],
+      other_desc: [
+        "HDMI and VGA simultaneous video outputs for local display connection",
+        "SATA HDD interface supporting high-capacity storage for long-term video retention",
+        "Intelligent search and playback features for quick event retrieval"
+      ]
+    },
+    {
+      img: 'assets/image/product/cctv/cctv_smps_all_chenal.png',
+      title: 'CCTV Camera Centralized Power Supply Box',
+      description: 'This centralized CCTV Power Supply Unit is designed to deliver stable and reliable power to multiple security cameras from a single location. Encased in a durable metal housing with cooling vents to prevent overheating, it simplifies power management and eliminates the need for individual power adapters at each camera installation site.',
+      short_desc: [
+        "Centralized Power Distribution for CCTV Security Systems",
+        "Heavy-Duty Metal Enclosure with Integrated Ventilation Vents",
+        "Heavy-Duty Cables with Strain Relief Connectors"
+      ],
+      other_desc: [
+        "Built-in overcurrent, overvoltage, and short-circuit protection",
+        "Protects connected cameras from power surges and electrical noise",
+        "Suitable for wall mounting in commercial and residential security setups"
+      ]
+    },
+    {
+      img: 'assets/image/product/cctv/dahua_imou_indoor.png',
+      title: '',
+      description: '',
+      short_desc: [
+      ],
+      other_desc: [
+      ]
+    },
+    {
+      img: 'assets/image/product/cctv/dahua_imou_indoor.png',
+      title: '',
+      description: '',
+      short_desc: [
+      ],
+      other_desc: [
+      ]
+    },
   ]
 
   constructor(
