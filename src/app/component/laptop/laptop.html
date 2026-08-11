@@ -1,1 +1,36 @@
-<p>laptop works!</p>
+<div class="page-wrapper">
+    <div class="page-tiltle-section">
+        <div class="container">
+            <div class="title-section">
+                <h2>Laptops</h2>
+                <p>Advanced surveillance cameras designed to provide reliable security with HD recording, wide-angle
+                    coverage, infrared night vision, and real-time monitoring from anywhere.</p>
+                <hr class="section-line">
+            </div>
+        </div>
+    </div>
+    <div class="page-details-section">
+        <div class="container">
+            <div class="details-section">
+                <div class="row gy-2">
+                    @for(item of productList; track $index){
+                    <div class="col-lg-3">
+                        <div class="product-card">
+                            <div class="card-image-wrapper">
+                                <img [src]="item?.img" alt="{{item?.title}}">
+                            </div>
+                            <div class="card-content">
+                                <h5 class="title">{{item?.title}}</h5>
+                                <p class="description">{{item?.description}}</p>
+                            </div>
+                            <div class="card-footer">
+                                <a class="p-btn" (click)="productDetails(item)">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
