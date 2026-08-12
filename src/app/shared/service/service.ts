@@ -9,23 +9,23 @@ export class Service {
 
   bannerList = [
     {
-      desktop_banner: '../../../../assets/image/banner/banner_1.jpeg',
-      mobile_banner: '../../../../assets/image/banner/m_banner_1.jpeg',
+      desktop_banner: 'assets/image/banner/banner_1.jpeg',
+      mobile_banner: 'assets/image/banner/m_banner_1.jpeg',
       alt: 'Slide 1'
     },
     {
-      desktop_banner: '../../../../assets/image/banner/banner_2.jpeg',
-      mobile_banner: '../../../../assets/image/banner/m_banner_2.jpeg',
+      desktop_banner: 'assets/image/banner/banner_2.jpeg',
+      mobile_banner: 'assets/image/banner/m_banner_2.jpeg',
       alt: 'Slide 2'
     },
     {
-      desktop_banner: '../../../../assets/image/banner/banner_3.jpeg',
-      mobile_banner: '../../../../assets/image/banner/m_banner_3.jpeg',
+      desktop_banner: 'assets/image/banner/banner_3.jpeg',
+      mobile_banner: 'assets/image/banner/m_banner_3.jpeg',
       alt: 'Slide 3'
     },
     {
-      desktop_banner: '../../../../assets/image/banner/banner_4.jpeg',
-      mobile_banner: '../../../../assets/image/banner/m_banner_4.jpeg',
+      desktop_banner: 'assets/image/banner/banner_4.jpeg',
+      mobile_banner: 'assets/image/banner/m_banner_4.jpeg',
       alt: 'Slide 3'
     }
   ];

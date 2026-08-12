@@ -48,39 +48,39 @@ export class Home implements AfterViewInit {
 
   ClientList = [
     {
-      imageUrl: '../../../assets/image/logo1.png',
+      imageUrl: 'assets/image/logo1.png',
       alt: 'Agrimate'
     },
     {
-      imageUrl: '../../../assets/image/logo2.png',
+      imageUrl: 'assets/image/logo2.png',
       alt: 'Radhika'
     },
     {
-      imageUrl: '../../../assets/image/logo3.png',
+      imageUrl: 'assets/image/logo3.png',
       alt: 'Conrad'
     },
     {
-      imageUrl: '../../../assets/image/logo4.png',
+      imageUrl: 'assets/image/logo4.png',
       alt: 'captain'
     },
     {
-      imageUrl: '../../../assets/image/logo5.png',
+      imageUrl: 'assets/image/logo5.png',
       alt: 'Sitaram'
     },
     {
-      imageUrl: '../../../assets/image/logo6.png',
+      imageUrl: 'assets/image/logo6.png',
       alt: 'Tata-Steel'
     },
     {
-      imageUrl: '../../../assets/image/logo7.png',
+      imageUrl: 'assets/image/logo7.png',
       alt: 'FMC'
     },
     {
-      imageUrl: '../../../assets/image/logo8.png',
+      imageUrl: 'assets/image/logo8.png',
       alt: 'FMC'
     },
     {
-      imageUrl: '../../../assets/image/logo9.png',
+      imageUrl: 'assets/image/logo9.png',
       alt: 'FMC'
     }
   ]
@@ -91,28 +91,28 @@ export class Home implements AfterViewInit {
 
   product = [
     {
-      img: '../../../assets/image/product/cctv.jpeg',
+      img: 'assets/image/product/cctv.jpeg',
       title: 'CCTV Camera',
       icon: 'fa-solid fa-camera',
       description: 'High-definition surveillance cameras for crystal-clear indoor and outdoor security monitoring.',
       url: 'cctv'
     },
     {
-      img: '../../../assets/image/product/laptop.jpeg',
+      img: 'assets/image/product/laptop.jpeg',
       title: 'Laptop',
       icon: 'fa-solid fa-laptop',
       description: 'Reliable laptops designed for office work, business productivity, multitasking, online meetings, and everyday professional computing needs.',
       url: 'laptop'
     },
     {
-      img: '../../../assets/image/product/computer.jpeg',
+      img: 'assets/image/product/computer.jpeg',
       title: 'Desktop',
       icon: 'fa-solid fa-laptop',
       description: 'Professional troubleshooting and repair for hardware and software issues on laptops, desktops, and all computer systems.',
       url: 'computer'
     },
     {
-      img: '../../../assets/image/product/led.jpeg',
+      img: 'assets/image/product/led.jpeg',
       title: 'LED',
       icon: 'fa-solid fa-tv',
       description: 'Professional troubleshooting and repair for display issues, power failures, sound problems, and motherboard faults.',
