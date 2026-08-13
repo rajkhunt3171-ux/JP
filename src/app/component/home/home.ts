@@ -199,7 +199,7 @@ export class Home implements AfterViewInit {
     } else {
       this.isNotValid = false;;
       const body = `${this.message}`;
-      const mail = `mailto:info@opectillerblade.com?subject=${this.subject}?&body=${body}`;
+      const mail = `mailto:rajkhunt@gmail.com?subject=${this.subject}?&body=${body}`;
       window.open(mail, '_blank');
     }
   }
