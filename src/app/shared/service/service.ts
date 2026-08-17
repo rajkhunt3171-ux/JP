@@ -5,7 +5,22 @@ import { Injectable } from '@angular/core';
 })
 export class Service {
 
-  toggleSidebar: boolean = false;
+  private _toggleSidebar: boolean = false;
+
+  get toggleSidebar(): boolean {
+    return this._toggleSidebar;
+  }
+
+  set toggleSidebar(value: boolean) {
+    this._toggleSidebar = value;
+    if (typeof document !== 'undefined') {
+      if (value) {
+        document.body.classList.add('overflow-hidden');
+      } else {
+        document.body.classList.remove('overflow-hidden');
+      }
+    }
+  }
 
   bannerList = [
     {
@@ -31,6 +46,7 @@ export class Service {
   ];
 
   scrollto(id: any) {
+    this.toggleSidebar = false;
     setTimeout(() => {
       const element = document.getElementById(id);
       if (element) {

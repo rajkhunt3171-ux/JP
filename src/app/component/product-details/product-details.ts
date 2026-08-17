@@ -19,7 +19,7 @@ export class ProductDetails {
   ngOnInit() { }
 
   redirectToWhatsApp(productName: any) {
-    const phoneNumber = '+918469492080';
+    const phoneNumber = '+918733874738';
     const message = `Hi,\nWe need more information about your product ${productName}.`;
     const encodedMessage = encodeURIComponent(message);
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;

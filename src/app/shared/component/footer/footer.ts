@@ -9,9 +9,9 @@ import { Service } from '../../service/service';
 })
 export class Footer {
 
-  phoneNumber: string = '+91 8469492080';
-  whatsappNumber: string = '91 8469492080';
-  email: string = 'rajkhunt5285@gmail.com';
+  phoneNumber: string = '+91 8733874738';
+  whatsappNumber: string = '91 8733874738';
+  email: string = 'jpcomputer.official@gmail.com';
 
   currYear = new Date().getFullYear();
 

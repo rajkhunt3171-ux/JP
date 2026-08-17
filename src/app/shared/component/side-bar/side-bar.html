@@ -13,16 +13,16 @@
     <div class="sidebar-body">
         <ul class="sidebar-menu">
             <li>
-                <a><i class="fa-solid fa-house me-2"></i> Home</a>
+                <a routerLink="/" (click)="sharedService.scrollto('home')"><i class="fa-solid fa-house me-2"></i> Home</a>
             </li>
             <li>
-                <a><i class="fa-solid fa-box me-2"></i> Products</a>
+                <a routerLink="/" (click)="sharedService.scrollto('product')"><i class="fa-solid fa-box me-2"></i> Products</a>
             </li>
             <li>
-                <a><i class="fa-solid fa-circle-info me-2"></i> About US</a>
+                <a routerLink="/" (click)="sharedService.scrollto('about_us')"><i class="fa-solid fa-circle-info me-2"></i> About US</a>
             </li>
             <li>
-                <a><i class="fa-solid fa-envelope me-2"></i> Contact US</a>
+                <a routerLink="/" (click)="sharedService.scrollto('contact_us')"><i class="fa-solid fa-envelope me-2"></i> Contact US</a>
             </li>
         </ul>
     </div>

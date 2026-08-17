@@ -27,10 +27,12 @@
                                     <a class="p-btn" routerLink="/" (click)="sharedService.scrollto('home')">Home</a>
                                 </li>
                                 <li>
-                                    <a class="p-btn" routerLink="/">Products</a>
+                                    <a class="p-btn" routerLink="/"
+                                        (click)="sharedService.scrollto('product')">Products</a>
                                 </li>
                                 <li>
-                                    <a class="p-btn" routerLink="/">About US</a>
+                                    <a class="p-btn" routerLink="/" (click)="sharedService.scrollto('about_us')">About
+                                        US</a>
                                 </li>
                                 <li>
                                     <a class="p-btn" routerLink="/"
@@ -45,12 +47,9 @@
         </div>
     </div>
 
-    <!-- Sidebar & Overlay (Header ની બહાર રેન્ડર કરો જેથી Positon Absolute/Fixed પ્રોપર થાય) -->
     @if(sharedService.toggleSidebar){
-    <!-- Background Overlay -->
     <div class="sidebar-overlay" (click)="toggleSidebar()"></div>
 
-    <!-- Slide-out Sidebar -->
     <div class="sidebar-wrapper">
         <app-side-bar></app-side-bar>
     </div>
