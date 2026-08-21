@@ -7,6 +7,9 @@
     --primary-color: #000000;
     --secondary-color: #FFFFFF;
     --third-color: #2B180B;
+    --swiper-pagination-color: #FFFFFF;
+    --swiper-pagination-bullet-inactive-color: #FFFFFF;
+    --swiper-pagination-bullet-inactive-opacity: 0.5;
 }
 
 * {
@@ -58,5 +61,17 @@ swiper-slide img {
     color: var(--secondary-color);
     width: 30px;
     height: 30px;
-
 }
+
+.swiper-pagination-bullet {
+    background-color: #FFFFFF !important;
+    opacity: 0.6;
+    transition: all 0.3s ease;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #FFFFFF !important;
+    opacity: 1;
+    width: 22px;
+    border-radius: 5px;
+}
