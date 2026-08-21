@@ -1,0 +1,50 @@
+<div class="not-found-wrapper">
+    <div class="container">
+        <div class="not-found-content text-center">
+            <div class="error-badge">
+                <span class="badge-text">ERROR</span>
+            </div>
+            
+            <div class="error-code-wrapper">
+                <h1 class="error-code">4<span>0</span>4</h1>
+                <div class="error-icon-float">
+                    <i class="fa-solid fa-triangle-exclamation"></i>
+                </div>
+            </div>
+
+            <div class="error-message">
+                <h2 class="error-title">Oops! Page Not Found</h2>
+                <div class="section-line-wrapper">
+                    <hr class="section-line">
+                </div>
+                <p class="error-desc">
+                    The page you are looking for might have been removed, had its name changed, or the URL might be mistyped.
+                </p>
+            </div>
+
+            <div class="action-buttons">
+                <a routerLink="/" (click)="sharedService.scrollToTop()" class="btn-home">
+                    <i class="fa-solid fa-house me-2"></i> Back to Home
+                </a>
+            </div>
+
+            <div class="quick-links-section">
+                <p class="quick-links-title">Or explore our popular categories:</p>
+                <div class="quick-links-pills">
+                    <a routerLink="/cctv" (click)="sharedService.scrollToTop()" class="pill-btn">
+                        <i class="fa-solid fa-video me-1"></i> CCTV Camera
+                    </a>
+                    <a routerLink="/computer" (click)="sharedService.scrollToTop()" class="pill-btn">
+                        <i class="fa-solid fa-desktop me-1"></i> Computer
+                    </a>
+                    <a routerLink="/laptop" (click)="sharedService.scrollToTop()" class="pill-btn">
+                        <i class="fa-solid fa-laptop me-1"></i> Laptop
+                    </a>
+                    <a routerLink="/led" (click)="sharedService.scrollToTop()" class="pill-btn">
+                        <i class="fa-solid fa-tv me-1"></i> LCD / LED
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

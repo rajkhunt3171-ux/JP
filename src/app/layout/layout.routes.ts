@@ -4,6 +4,7 @@ import { Cctv } from '../component/cctv/cctv';
 import { Computer } from '../component/computer/computer';
 import { Led } from '../component/led/led';
 import { Laptop } from '../component/laptop/laptop';
+import { NotFound } from '../component/not-found/not-found';
 
 export const layOutRoutes: Routes = [
     {
@@ -25,6 +26,14 @@ export const layOutRoutes: Routes = [
     {
         path: 'laptop',
         component: Laptop
+    },
+    {
+        path: '404',
+        component: NotFound
+    },
+    {
+        path: '**',
+        component: NotFound
     }
 
 ];
