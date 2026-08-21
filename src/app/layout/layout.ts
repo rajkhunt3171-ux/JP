@@ -19,7 +19,7 @@ export class Layout {
 
 
   openWhatsApp(): void {
-    const phoneNumber = '+918469492080';
+    const phoneNumber = '+918733874738';
     const message = `Hi,\r\nI would like to know about your products.`;
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
