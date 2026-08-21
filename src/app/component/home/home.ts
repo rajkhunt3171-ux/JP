@@ -98,13 +98,6 @@ export class Home implements AfterViewInit {
       url: 'cctv'
     },
     {
-      img: 'assets/image/product/laptop.jpeg',
-      title: 'Laptop',
-      icon: 'fa-solid fa-laptop',
-      description: 'Reliable laptops designed for office work, business productivity, multitasking, online meetings, and everyday professional computing needs.',
-      url: 'laptop'
-    },
-    {
       img: 'assets/image/product/computer.jpeg',
       title: 'Desktop',
       icon: 'fa-solid fa-laptop',
@@ -112,8 +105,15 @@ export class Home implements AfterViewInit {
       url: 'computer'
     },
     {
+      img: 'assets/image/product/laptop.jpeg',
+      title: 'Laptop',
+      icon: 'fa-solid fa-laptop',
+      description: 'Reliable laptops designed for office work, business productivity, multitasking, online meetings, and everyday professional computing needs.',
+      url: 'laptop'
+    },
+    {
       img: 'assets/image/product/led.jpeg',
-      title: 'LED',
+      title: 'LCD/LED TV',
       icon: 'fa-solid fa-tv',
       description: 'Professional troubleshooting and repair for display issues, power failures, sound problems, and motherboard faults.',
       url: 'led'
@@ -136,10 +136,6 @@ export class Home implements AfterViewInit {
     {
       question: "Do you provide LED TV repair services?",
       answer: `Yes, we repair <b class="highlight">LED TVs for display issues, power failures, sound problems, motherboard faults, and other technical issues</b>, subject to repair feasibility.`
-    },
-    {
-      question: "Do you offer data recovery services?",
-      answer: `Yes, we provide <b class="highlight">data recovery services</b> for laptops, desktops, hard drives (HDD), SSDs, USB drives, and memory cards whenever recovery is possible.`
     }
   ];
 

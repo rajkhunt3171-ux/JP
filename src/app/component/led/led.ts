@@ -99,6 +99,21 @@ export class Led {
         "Universal compatibility with 4K TVs, monitors, gaming consoles, AV receivers, and projectors",
         "Delivers crisp digital video and multi-channel surround sound without signal loss"
       ]
+    },
+    {
+      img: 'assets/image/product/led/tv_wall_mount.png',
+      title: "Heavy-Duty Fixed LED TV Wall Mount Bracket",
+      description: "This heavy-duty fixed TV wall mount bracket is constructed from high-grade cold-rolled steel to provide maximum strength and stable support for LED, LCD, and Smart TVs. Featuring a low-profile slim design, it mounts televisions close to the wall for a sleek, modern aesthetic while offering multiple VESA mounting hole patterns for broad compatibility.",
+      short_desc: [
+        "Heavy-Duty Solid Steel Construction with Matte Black Finish",
+        "Universal VESA Compatibility for LED, LCD, and Smart TVs",
+        "Low-Profile Slim Design for Flush Wall Installation"
+      ],
+      other_desc: [
+        "Dual vertical mounting brackets with open back-plate for easy cable routing and management",
+        "Pre-drilled multi-hole pattern to accommodate various screen sizes and wall stud spacing",
+        "Ideal space-saving solution for living rooms, bedrooms, offices, and conference rooms"
+      ]
     }
   ]
 
