@@ -76,7 +76,7 @@ export class Home implements AfterViewInit {
       alt: 'FMC'
     },
     {
-      imageUrl: 'assets/image/logo8.png',
+      imageUrl: 'assets/image/logo8.jpeg',
       alt: 'FMC'
     },
     {
