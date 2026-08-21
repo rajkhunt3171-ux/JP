@@ -27,18 +27,12 @@ export class Layout {
 
   @HostListener('window:scroll')
   onScroll() {
-    const scrollTop = window.scrollY;
+    const scrollTop = window.scrollY || document.documentElement.scrollTop || 0;
     this.isSticky = scrollTop > 1; // Sticky navbar
-    this.windowScroll = scrollTop > 400; // Show scroll-to-top button
+    this.windowScroll = scrollTop > 200; // Show scroll-to-top button
   }
 
-  ngAfterViewInit(): void {
-    window.addEventListener('scroll', () => {
-      if (window.scrollY > 60) {
-        this.windowScroll = true
-      } else {
-        this.windowScroll = false
-      }
-    })
+  scrollToTop(): void {
+    this.sharedService.scrollToTop();
   }
 }

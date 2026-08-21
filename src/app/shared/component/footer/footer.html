@@ -16,10 +16,10 @@
                         </h5>
                         <div class="menu-link">
                             <ul>
-                                <li><a (click)="sharedService.scrollto('home')">CCTV Camera</a></li>
-                                <li><a (click)="sharedService.scrollto('home')">Computer</a></li>
-                                <li><a (click)="sharedService.scrollto('home')">Laptop</a></li>
-                                <li><a (click)="sharedService.scrollto('home')">LCD</a></li>
+                                <li><a routerLink="/cctv" (click)="sharedService.scrollToTop()">CCTV Camera</a></li>
+                                <li><a routerLink="/computer" (click)="sharedService.scrollToTop()">Computer</a></li>
+                                <li><a routerLink="/laptop" (click)="sharedService.scrollToTop()">Laptop</a></li>
+                                <li><a routerLink="/led" (click)="sharedService.scrollToTop()">LCD</a></li>
                             </ul>
                         </div>
                     </div>
@@ -32,11 +32,11 @@
                         </h5>
                         <div class="menu-link">
                             <ul>
-                                <li><a (click)="sharedService.scrollto('home')">Home</a></li>
-                                <li><a (click)="sharedService.scrollto('home')">Products</a></li>
-                                <li><a (click)="sharedService.scrollto('home')">About US</a></li>
-                                <li><a (click)="sharedService.scrollto('home')">FAQ's</a></li>
-                                <li><a (click)="sharedService.scrollto('contact_us')">Contact US</a></li>
+                                <li><a routerLink="/" (click)="sharedService.scrollto('home')">Home</a></li>
+                                <li><a routerLink="/" (click)="sharedService.scrollto('product')">Products</a></li>
+                                <li><a routerLink="/" (click)="sharedService.scrollto('about_us')">About US</a></li>
+                                <li><a routerLink="/" (click)="sharedService.scrollto('home')">FAQ's</a></li>
+                                <li><a routerLink="/" (click)="sharedService.scrollto('contact_us')">Contact US</a></li>
                             </ul>
                         </div>
                     </div>
